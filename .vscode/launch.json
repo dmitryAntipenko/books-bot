@@ -10,9 +10,6 @@
             "request": "launch",
             "program": "main.py",
             "console": "integratedTerminal",            
-            "env": {
-                "TOKEN": "657480393:AAEsUrVcZo3G39AD6Qr-6IQPd9aGjuXuodI"
-            }
         },
         {
             "name": "Python: Remote Attach",
@@ -33,9 +30,6 @@
             "request": "launch",
             "module": "main",
             "console": "integratedTerminal",      
-            "env": {
-                "TOKEN": "657480393:AAEsUrVcZo3G39AD6Qr-6IQPd9aGjuXuodI"
-            }
         },
         {
             "name": "Python: Django",
