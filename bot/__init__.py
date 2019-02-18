@@ -6,6 +6,6 @@ import os
 token = os.environ.get('TOKEN')
 
 queue = messagequeue.MessageQueue(all_burst_limit=3, all_time_limit_ms=3000)
-books_bot = BooksBot(token, mqueue=queue)
+books_bot = BooksBot(mqueue=queue, token=token)
 updater = Updater(bot=books_bot)
 data_provider = DataProvider()
